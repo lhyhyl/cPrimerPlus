@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{34e30d7d-493a-493a-b7de-f3dddc53a276}</ProjectGuid>
+    <RootNamespace>cPrimerPlus</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ch03\exercise1.c" />
+    <ClCompile Include="ch03\exercise2.c" />
+    <ClCompile Include="ch03\exercise3.c" />
+    <ClCompile Include="ch03\exercise4.c" />
+    <ClCompile Include="ch03\exercise5.c" />
+    <ClCompile Include="ch03\exercise6.c" />
+    <ClCompile Include="ch03\exercise7.c" />
+    <ClCompile Include="ch03\exercise8.c" />
+    <ClCompile Include="ch04\exercise1.c" />
+    <ClCompile Include="ch04\exercise2.c" />
+    <ClCompile Include="ch04\exercise3.c" />
+    <ClCompile Include="ch04\exercise4.c" />
+    <ClCompile Include="ch04\exercise5.c" />
+    <ClCompile Include="ch04\exercise6.c" />
+    <ClCompile Include="ch04\exercise7.c" />
+    <ClCompile Include="ch04\exercise8.c" />
+    <ClCompile Include="ch05\exercise1.c" />
+    <ClCompile Include="ch05\exercise2.c" />
+    <ClCompile Include="ch05\exercise3.c" />
+    <ClCompile Include="ch05\exercise4.c" />
+    <ClCompile Include="ch05\exercise5.c" />
+    <ClCompile Include="ch05\exercise6.c" />
+    <ClCompile Include="ch05\exercise7.c" />
+    <ClCompile Include="ch05\exercise8.c" />
+    <ClCompile Include="ch05\exercise9.c" />
+    <ClCompile Include="ch06\exercise01.c" />
+    <ClCompile Include="ch06\exercise02.c" />
+    <ClCompile Include="ch06\exercise03.c" />
+    <ClCompile Include="ch06\exercise04.c" />
+    <ClCompile Include="ch06\exercise05.c" />
+    <ClCompile Include="ch06\exercise06.c" />
+    <ClCompile Include="ch06\exercise07.c" />
+    <ClCompile Include="ch06\exercise08.c" />
+    <ClCompile Include="ch06\exercise09.c" />
+    <ClCompile Include="ch06\exercise10.c" />
+    <ClCompile Include="ch06\exercise11.c" />
+    <ClCompile Include="ch06\exercise12.c" />
+    <ClCompile Include="ch06\exercise13.c" />
+    <ClCompile Include="ch06\exercise14.c" />
+    <ClCompile Include="ch06\exercise15.c" />
+    <ClCompile Include="ch06\exercise16.c" />
+    <ClCompile Include="ch06\exercise17.c" />
+    <ClCompile Include="ch06\exercise18.c" />
+    <ClCompile Include="ch07\exercise01.c" />
+    <ClCompile Include="ch07\exercise02.c" />
+    <ClCompile Include="ch07\exercise03.c" />
+    <ClCompile Include="ch07\exercise04.c" />
+    <ClCompile Include="ch07\exercise05.c" />
+    <ClCompile Include="ch07\exercise06.c" />
+    <ClCompile Include="ch07\exercise07.c" />
+    <ClCompile Include="ch07\exercise08.c" />
+    <ClCompile Include="ch07\exercise09.c" />
+    <ClCompile Include="ch07\exercise10.c" />
+    <ClCompile Include="ch07\exercise11.c" />
+    <ClCompile Include="ch08\exercise01.c" />
+    <ClCompile Include="ch08\exercise02.c" />
+    <ClCompile Include="ch08\exercise03.c" />
+    <ClCompile Include="ch08\exercise04.c" />
+    <ClCompile Include="ch08\exercise05.c" />
+    <ClCompile Include="ch08\exercise06.c" />
+    <ClCompile Include="ch08\exercise07.c" />
+    <ClCompile Include="ch08\exercise08.c" />
+    <ClCompile Include="ch09\exercise01.c" />
+    <ClCompile Include="ch09\exercise02.c" />
+    <ClCompile Include="ch09\exercise03.c" />
+    <ClCompile Include="ch09\exercise04.c" />
+    <ClCompile Include="ch09\exercise05.c" />
+    <ClCompile Include="ch09\exercise06.c" />
+    <ClCompile Include="ch09\exercise07.c" />
+    <ClCompile Include="ch09\exercise08.c" />
+    <ClCompile Include="ch09\exercise09.c" />
+    <ClCompile Include="ch09\exercise10.c" />
+    <ClCompile Include="ch09\exercise11.c" />
+    <ClCompile Include="ch10\exercise01.c" />
+    <ClCompile Include="ch10\exercise02.c" />
+    <ClCompile Include="ch10\exercise03.c" />
+    <ClCompile Include="ch10\exercise04.c" />
+    <ClCompile Include="ch10\exercise05.c" />
+    <ClCompile Include="ch10\exercise06.c" />
+    <ClCompile Include="ch10\exercise07.c" />
+    <ClCompile Include="ch10\exercise08.c" />
+    <ClCompile Include="ch10\exercise09.c" />
+    <ClCompile Include="ch10\exercise10.c" />
+    <ClCompile Include="ch10\exercise11.c" />
+    <ClCompile Include="ch10\exercise12.c" />
+    <ClCompile Include="ch10\exercise13.c" />
+    <ClCompile Include="ch10\exercise14.c" />
+    <ClCompile Include="ch11\exercise01.c" />
+    <ClCompile Include="ch11\exercise02.c" />
+    <ClCompile Include="ch11\exercise03.c" />
+    <ClCompile Include="ch11\exercise04.c" />
+    <ClCompile Include="ch11\exercise05.c" />
+    <ClCompile Include="ch11\exercise06.c" />
+    <ClCompile Include="ch11\exercise07.c" />
+    <ClCompile Include="ch11\exercise08.c" />
+    <ClCompile Include="ch11\exercise09.c" />
+    <ClCompile Include="ch11\exercise10.c" />
+    <ClCompile Include="ch11\exercise11.c" />
+    <ClCompile Include="ch11\exercise12.c" />
+    <ClCompile Include="ch11\exercise13.c" />
+    <ClCompile Include="ch11\exercise14.c" />
+    <ClCompile Include="ch11\exercise15.c" />
+    <ClCompile Include="ch11\exercise16.c" />
+    <ClCompile Include="ch12\exercise01.c" />
+    <ClCompile Include="ch12\exercise02-b.c" />
+    <ClCompile Include="ch12\exercise02.c" />
+    <ClCompile Include="ch12\exercise03-b.c" />
+    <ClCompile Include="ch12\exercise03.c" />
+    <ClCompile Include="ch12\exercise04.c" />
+    <ClCompile Include="ch12\exercise05.c" />
+    <ClCompile Include="ch12\exercise06.c" />
+    <ClCompile Include="ch12\exercise07-b.c" />
+    <ClCompile Include="ch12\exercise07.c" />
+    <ClCompile Include="ch12\exercise08.c" />
+    <ClCompile Include="ch12\exercise09.c" />
+    <ClCompile Include="ch13\exercise01.c" />
+    <ClCompile Include="ch13\exercise02.c" />
+    <ClCompile Include="ch13\exercise03.c" />
+    <ClCompile Include="ch13\exercise04.c" />
+    <ClCompile Include="ch13\exercise05.c" />
+    <ClCompile Include="ch13\exercise06.c" />
+    <ClCompile Include="ch13\exercise07-mod.c" />
+    <ClCompile Include="ch13\exercise07.c" />
+    <ClCompile Include="ch13\exercise08.c" />
+    <ClCompile Include="ch13\exercise09.c" />
+    <ClCompile Include="ch13\exercise10.c" />
+    <ClCompile Include="ch13\exercise11.c" />
+    <ClCompile Include="ch13\exercise12.c" />
+    <ClCompile Include="ch13\exercise13.c" />
+    <ClCompile Include="ch13\exercise14.c" />
+    <ClCompile Include="ch14\exercise01.c" />
+    <ClCompile Include="ch14\exercise02.c" />
+    <ClCompile Include="ch14\exercise03.c" />
+    <ClCompile Include="ch14\exercise04.c" />
+    <ClCompile Include="ch14\exercise05.c" />
+    <ClCompile Include="ch14\exercise06.c" />
+    <ClCompile Include="ch14\exercise07.c" />
+    <ClCompile Include="ch14\exercise08.c" />
+    <ClCompile Include="ch14\exercise09.c" />
+    <ClCompile Include="ch14\exercise10.c" />
+    <ClCompile Include="ch14\exercise11.c" />
+    <ClCompile Include="ch15\exercise01.c" />
+    <ClCompile Include="ch15\exercise02.c" />
+    <ClCompile Include="ch15\exercise03.c" />
+    <ClCompile Include="ch15\exercise04.c" />
+    <ClCompile Include="ch15\exercise05.c" />
+    <ClCompile Include="ch15\exercise06.c" />
+    <ClCompile Include="ch15\exercise07.c" />
+    <ClCompile Include="ch16\coordinates.c" />
+    <ClCompile Include="ch16\exercise02.c" />
+    <ClCompile Include="ch16\exercise03.c" />
+    <ClCompile Include="ch16\exercise04.c" />
+    <ClCompile Include="ch16\exercise05.c" />
+    <ClCompile Include="ch16\exercise06.c" />
+    <ClCompile Include="ch16\exercise07.c" />
+    <ClCompile Include="ch17\binary_search.c" />
+    <ClCompile Include="ch17\exercise01.c" />
+    <ClCompile Include="ch17\exercise02.c" />
+    <ClCompile Include="ch17\exercise03.c" />
+    <ClCompile Include="ch17\exercise04.c" />
+    <ClCompile Include="ch17\exercise05.c" />
+    <ClCompile Include="ch17\exercise06.c" />
+    <ClCompile Include="ch17\exercise07.c" />
+    <ClCompile Include="ch17\exercise08.c" />
+    <ClCompile Include="ch17\film.c" />
+    <ClCompile Include="ch17\list.c" />
+    <ClCompile Include="ch17\list2.c" />
+    <ClCompile Include="ch17\pettree.c" />
+    <ClCompile Include="ch17\queue.c" />
+    <ClCompile Include="ch17\stack.c" />
+    <ClCompile Include="ch17\tree.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ch12\exercise02.h" />
+    <ClInclude Include="ch12\exercise03.h" />
+    <ClInclude Include="ch12\exercise07.h" />
+    <ClInclude Include="ch16\coordinates.h" />
+    <ClInclude Include="ch16\exercise01.h" />
+    <ClInclude Include="ch17\binary_search.h" />
+    <ClInclude Include="ch17\film.h" />
+    <ClInclude Include="ch17\list.h" />
+    <ClInclude Include="ch17\list2.h" />
+    <ClInclude Include="ch17\pettree.h" />
+    <ClInclude Include="ch17\queue.h" />
+    <ClInclude Include="ch17\stack.h" />
+    <ClInclude Include="ch17\tree.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

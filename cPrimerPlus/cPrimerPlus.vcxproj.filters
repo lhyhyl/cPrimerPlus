@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\ch03">
+      <UniqueIdentifier>{1a07e9d6-6e60-4975-a0d1-bad23df89966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch04">
+      <UniqueIdentifier>{25eb6ce5-ff90-46b6-b311-6a214a81cbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch05">
+      <UniqueIdentifier>{a60c1f81-a583-486b-a519-55714edd1986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch06">
+      <UniqueIdentifier>{bcf3ad8f-7e72-4f32-8d5a-585aebd398a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch07">
+      <UniqueIdentifier>{b26044e4-6d94-467c-9a48-5a4d9ff3e12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch08">
+      <UniqueIdentifier>{07953af9-12b9-4349-a95d-9361426e300b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch09">
+      <UniqueIdentifier>{462ce8cd-6f42-491f-8342-2834b57f3f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch10">
+      <UniqueIdentifier>{6bffc587-5b38-4711-84eb-8cca5747f6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch11">
+      <UniqueIdentifier>{8361fee9-a7b3-4e41-9e5b-0b2609bff7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch12">
+      <UniqueIdentifier>{32ea4793-1242-45e4-a46f-85f50f7d5a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch13">
+      <UniqueIdentifier>{4fef879f-ce89-4d47-be07-afe47aae1b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch14">
+      <UniqueIdentifier>{3af1e727-4f5a-4a40-8fcc-4a4de11f5777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch15">
+      <UniqueIdentifier>{6283afd8-2247-42f0-a4ae-9aa3b0d157c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch16">
+      <UniqueIdentifier>{eac4aef5-409b-4ccd-82f3-b37197dc1a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ch17">
+      <UniqueIdentifier>{bcc28765-02f2-440d-9225-9c3f2e0c5500}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ch07\exercise01.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch15\exercise01.c">
+      <Filter>源文件\ch15</Filter>
+    </ClCompile>
+    <ClCompile Include="ch08\exercise01.c">
+      <Filter>源文件\ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise01.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise01.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise01.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\exercise01.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise01.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise01.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise01.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise01.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch04\exercise1.c">
+      <Filter>源文件\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="ch05\exercise1.c">
+      <Filter>源文件\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="ch03\exercise1.c">
+      <Filter>源文件\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="ch15\exercise02.c">
+      <Filter>源文件\ch15</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise02.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch08\exercise02.c">
+      <Filter>源文件\ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise02.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise02.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\exercise02.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch16\exercise02.c">
+      <Filter>源文件\ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise02.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise02.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise02.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise02.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise02.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch03\exercise2.c">
+      <Filter>源文件\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="ch04\exercise2.c">
+      <Filter>源文件\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="ch05\exercise2.c">
+      <Filter>源文件\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise03.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise03.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise03.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch08\exercise03.c">
+      <Filter>源文件\ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise03.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise03.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise03.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\exercise03.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch16\exercise03.c">
+      <Filter>源文件\ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise03.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise03.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch15\exercise03.c">
+      <Filter>源文件\ch15</Filter>
+    </ClCompile>
+    <ClCompile Include="ch03\exercise3.c">
+      <Filter>源文件\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="ch05\exercise3.c">
+      <Filter>源文件\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="ch04\exercise3.c">
+      <Filter>源文件\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise04.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise04.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise04.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch16\exercise04.c">
+      <Filter>源文件\ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise04.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch15\exercise04.c">
+      <Filter>源文件\ch15</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise04.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch08\exercise04.c">
+      <Filter>源文件\ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise04.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise04.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise04.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\exercise04.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch03\exercise4.c">
+      <Filter>源文件\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="ch05\exercise4.c">
+      <Filter>源文件\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="ch04\exercise4.c">
+      <Filter>源文件\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise05.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch08\exercise05.c">
+      <Filter>源文件\ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise05.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise05.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch15\exercise05.c">
+      <Filter>源文件\ch15</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise05.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise05.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise05.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise05.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch16\exercise05.c">
+      <Filter>源文件\ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise05.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\exercise05.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch04\exercise5.c">
+      <Filter>源文件\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="ch05\exercise5.c">
+      <Filter>源文件\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="ch03\exercise5.c">
+      <Filter>源文件\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise06.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise06.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise06.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise06.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise06.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise06.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch16\exercise06.c">
+      <Filter>源文件\ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise06.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise06.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch15\exercise06.c">
+      <Filter>源文件\ch15</Filter>
+    </ClCompile>
+    <ClCompile Include="ch08\exercise06.c">
+      <Filter>源文件\ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\exercise06.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch04\exercise6.c">
+      <Filter>源文件\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="ch05\exercise6.c">
+      <Filter>源文件\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="ch03\exercise6.c">
+      <Filter>源文件\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise07.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise07.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise07.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise07.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch15\exercise07.c">
+      <Filter>源文件\ch15</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise07.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise07.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch08\exercise07.c">
+      <Filter>源文件\ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise07.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\exercise07.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch16\exercise07.c">
+      <Filter>源文件\ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise07.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise07-mod.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch03\exercise7.c">
+      <Filter>源文件\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="ch04\exercise7.c">
+      <Filter>源文件\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="ch05\exercise7.c">
+      <Filter>源文件\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise08.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise08.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise08.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise08.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise08.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch08\exercise08.c">
+      <Filter>源文件\ch08</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise08.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\exercise08.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise08.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise08.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch03\exercise8.c">
+      <Filter>源文件\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="ch05\exercise8.c">
+      <Filter>源文件\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="ch04\exercise8.c">
+      <Filter>源文件\ch04</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise09.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise09.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise09.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise09.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise09.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise09.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise09.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise09.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch05\exercise9.c">
+      <Filter>源文件\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise10.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise10.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise10.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise10.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise10.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise10.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise10.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise11.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise11.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch09\exercise11.c">
+      <Filter>源文件\ch09</Filter>
+    </ClCompile>
+    <ClCompile Include="ch14\exercise11.c">
+      <Filter>源文件\ch14</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise11.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise11.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch07\exercise11.c">
+      <Filter>源文件\ch07</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise12.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise12.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise12.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise12.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise13.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise13.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise13.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise13.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch13\exercise14.c">
+      <Filter>源文件\ch13</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise14.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise14.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch10\exercise14.c">
+      <Filter>源文件\ch10</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise15.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise15.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch11\exercise16.c">
+      <Filter>源文件\ch11</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise16.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise17.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch06\exercise18.c">
+      <Filter>源文件\ch06</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\binary_search.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\film.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\tree.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\list.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\list2.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\pettree.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\queue.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch17\stack.c">
+      <Filter>源文件\ch17</Filter>
+    </ClCompile>
+    <ClCompile Include="ch16\coordinates.c">
+      <Filter>源文件\ch16</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise02-b.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise03-b.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+    <ClCompile Include="ch12\exercise07-b.c">
+      <Filter>源文件\ch12</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ch17\binary_search.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch16\exercise01.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch12\exercise03.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch12\exercise07.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch17\film.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch17\list.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch17\list2.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch17\pettree.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch17\queue.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch17\stack.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch17\tree.h">
+      <Filter>源文件\ch17</Filter>
+    </ClInclude>
+    <ClInclude Include="ch16\coordinates.h">
+      <Filter>源文件\ch16</Filter>
+    </ClInclude>
+    <ClInclude Include="ch12\exercise02.h">
+      <Filter>源文件\ch12</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
