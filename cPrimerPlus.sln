@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cPrimerPlus", "cPrimerPlus\cPrimerPlus.vcxproj", "{34E30D7D-493A-493A-B7DE-F3DDDC53A276}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c-zheda", "c-zheda\c-zheda.vcxproj", "{9806D794-638A-4F7F-ADD5-298029479428}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{34E30D7D-493A-493A-B7DE-F3DDDC53A276}.Release|x64.Build.0 = Release|x64
 		{34E30D7D-493A-493A-B7DE-F3DDDC53A276}.Release|x86.ActiveCfg = Release|Win32
 		{34E30D7D-493A-493A-B7DE-F3DDDC53A276}.Release|x86.Build.0 = Release|Win32
+		{9806D794-638A-4F7F-ADD5-298029479428}.Debug|x64.ActiveCfg = Debug|x64
+		{9806D794-638A-4F7F-ADD5-298029479428}.Debug|x64.Build.0 = Debug|x64
+		{9806D794-638A-4F7F-ADD5-298029479428}.Debug|x86.ActiveCfg = Debug|Win32
+		{9806D794-638A-4F7F-ADD5-298029479428}.Debug|x86.Build.0 = Debug|Win32
+		{9806D794-638A-4F7F-ADD5-298029479428}.Release|x64.ActiveCfg = Release|x64
+		{9806D794-638A-4F7F-ADD5-298029479428}.Release|x64.Build.0 = Release|x64
+		{9806D794-638A-4F7F-ADD5-298029479428}.Release|x86.ActiveCfg = Release|Win32
+		{9806D794-638A-4F7F-ADD5-298029479428}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

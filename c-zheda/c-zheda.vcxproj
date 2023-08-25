@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{9806d794-638a-4f7f-add5-298029479428}</ProjectGuid>
+    <RootNamespace>czheda</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="习题10-1.c" />
+    <ClCompile Include="习题10-11.c" />
+    <ClCompile Include="习题10-2.c" />
+    <ClCompile Include="习题10-3.c" />
+    <ClCompile Include="习题10-4-2.c" />
+    <ClCompile Include="习题10-4.c" />
+    <ClCompile Include="习题10-5.c" />
+    <ClCompile Include="习题10-6.c" />
+    <ClCompile Include="习题10-7.c" />
+    <ClCompile Include="习题10-8.c" />
+    <ClCompile Include="习题11-1.c" />
+    <ClCompile Include="习题11-2.c" />
+    <ClCompile Include="习题11-3.c" />
+    <ClCompile Include="习题11-4.c" />
+    <ClCompile Include="习题11-5.c" />
+    <ClCompile Include="习题11-6.c" />
+    <ClCompile Include="习题11-7.c" />
+    <ClCompile Include="习题11-8.c" />
+    <ClCompile Include="习题2-1.c" />
+    <ClCompile Include="习题2-2.c" />
+    <ClCompile Include="习题2-3.c" />
+    <ClCompile Include="习题2-4.c" />
+    <ClCompile Include="习题2-5.c" />
+    <ClCompile Include="习题2-6.c" />
+    <ClCompile Include="习题3-1.c" />
+    <ClCompile Include="习题3-2.c" />
+    <ClCompile Include="习题3-4.c" />
+    <ClCompile Include="习题4-1.c" />
+    <ClCompile Include="习题4-2.c" />
+    <ClCompile Include="习题4-3.c" />
+    <ClCompile Include="习题4-4.c" />
+    <ClCompile Include="习题4-5.c" />
+    <ClCompile Include="习题4-6.c" />
+    <ClCompile Include="习题4-7.c" />
+    <ClCompile Include="习题4-8.c" />
+    <ClCompile Include="习题4-9.c" />
+    <ClCompile Include="习题5-1.c" />
+    <ClCompile Include="习题5-2.c" />
+    <ClCompile Include="习题5-3.c" />
+    <ClCompile Include="习题5-4.c" />
+    <ClCompile Include="习题5-5.c" />
+    <ClCompile Include="习题5-6-2.c" />
+    <ClCompile Include="习题5-6.c" />
+    <ClCompile Include="习题5-7.c" />
+    <ClCompile Include="习题5-8.c" />
+    <ClCompile Include="习题6-1.c" />
+    <ClCompile Include="习题6-2.c" />
+    <ClCompile Include="习题6-3.c" />
+    <ClCompile Include="习题6-4.c" />
+    <ClCompile Include="习题6-5.c" />
+    <ClCompile Include="习题6-6.c" />
+    <ClCompile Include="习题6-7.c" />
+    <ClCompile Include="习题6-8.c" />
+    <ClCompile Include="习题7-1.c" />
+    <ClCompile Include="习题7-2.c" />
+    <ClCompile Include="习题7-3.c" />
+    <ClCompile Include="习题7-4.c" />
+    <ClCompile Include="习题7-5.c" />
+    <ClCompile Include="习题7-6.c" />
+    <ClCompile Include="习题7-7.c" />
+    <ClCompile Include="习题7-8.c" />
+    <ClCompile Include="习题8-1.c" />
+    <ClCompile Include="习题8-10.c" />
+    <ClCompile Include="习题8-2.c" />
+    <ClCompile Include="习题8-3-2.c" />
+    <ClCompile Include="习题8-3.c" />
+    <ClCompile Include="习题8-4-3.c" />
+    <ClCompile Include="习题8-5.c" />
+    <ClCompile Include="习题8-6.c" />
+    <ClCompile Include="习题8-7.c" />
+    <ClCompile Include="习题8-8-2.c" />
+    <ClCompile Include="习题8-8-3.c" />
+    <ClCompile Include="习题8-8.c" />
+    <ClCompile Include="习题8-9.c" />
+    <ClCompile Include="习题9-1.c" />
+    <ClCompile Include="习题9-2.c" />
+    <ClCompile Include="习题9-4.c" />
+    <ClCompile Include="习题9-5.c" />
+    <ClCompile Include="习题9-6.c" />
+    <ClCompile Include="练习10-1.c" />
+    <ClCompile Include="练习11-4.c" />
+    <ClCompile Include="练习2-1.c" />
+    <ClCompile Include="练习2-10.c" />
+    <ClCompile Include="练习2-11.c" />
+    <ClCompile Include="练习2-12.c" />
+    <ClCompile Include="练习2-13.c" />
+    <ClCompile Include="练习2-14.c" />
+    <ClCompile Include="练习2-15.c" />
+    <ClCompile Include="练习2-17.c" />
+    <ClCompile Include="练习2-18.c" />
+    <ClCompile Include="练习2-3.c" />
+    <ClCompile Include="练习2-4.c" />
+    <ClCompile Include="练习2-6.c" />
+    <ClCompile Include="练习2-8.c" />
+    <ClCompile Include="练习2-9.c" />
+    <ClCompile Include="练习3-2.c" />
+    <ClCompile Include="练习3-3.c" />
+    <ClCompile Include="练习3-4.c" />
+    <ClCompile Include="练习3-5.c" />
+    <ClCompile Include="练习3-7.c" />
+    <ClCompile Include="练习4-10.c" />
+    <ClCompile Include="练习4-11.c" />
+    <ClCompile Include="练习4-3.c" />
+    <ClCompile Include="练习4-7.c" />
+    <ClCompile Include="练习5-1.c" />
+    <ClCompile Include="练习5-2.c" />
+    <ClCompile Include="练习5-3.c" />
+    <ClCompile Include="练习6-3.c" />
+    <ClCompile Include="练习7-10.c" />
+    <ClCompile Include="练习7-11.c" />
+    <ClCompile Include="练习7-2.c" />
+    <ClCompile Include="练习7-3.c" />
+    <ClCompile Include="练习7-4-2.c" />
+    <ClCompile Include="练习7-4.c" />
+    <ClCompile Include="练习7-7.c" />
+    <ClCompile Include="练习7-8.c" />
+    <ClCompile Include="练习7-9.c" />
+    <ClCompile Include="练习8-2.c" />
+    <ClCompile Include="练习8-8.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
